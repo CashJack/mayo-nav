@@ -21,8 +21,9 @@
 /* Position the close button (top right corner) */
 .overlay .closebtn {
   position: absolute;
+  color: white;
   top: 5px;
-  right: 5px;
+  right: 25px;
   font-size: 40px;
   z-index: 1;
 }
@@ -115,7 +116,7 @@ body {
 }
 
 .menu__item + .menu__item {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .menu__item::before {
