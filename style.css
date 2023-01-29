@@ -14,7 +14,7 @@
   background-color: rgb(0, 0, 0); /* Black fallback color */
   background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
   overflow-x: hidden; /* Disable horizontal scroll */
-  overflow-y: hidden; /* Disable horizontal scroll */
+  overflow-y: hidden; /* Disable vertical scroll  */
   transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 
@@ -115,7 +115,7 @@ body {
 }
 
 .menu__item + .menu__item {
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .menu__item::before {
@@ -127,7 +127,7 @@ body {
   left: 0;
   transform: translate(-80px, -50%) rotate(225deg);
   opacity: 0;
-  background: url(../img/arrow.svg);
+  background: url(assets/images/arrow.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
